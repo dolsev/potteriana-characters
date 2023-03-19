@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/potteriana-characters/static/css/main.a7307112.css",
+    "main.js": "/potteriana-characters/static/js/main.fdfc5b13.js",
+    "index.html": "/potteriana-characters/index.html",
+    "main.a7307112.css.map": "/potteriana-characters/static/css/main.a7307112.css.map",
+    "main.fdfc5b13.js.map": "/potteriana-characters/static/js/main.fdfc5b13.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a7307112.css",
+    "static/js/main.fdfc5b13.js"
+  ]
+}
