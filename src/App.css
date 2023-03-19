@@ -1,8 +1,17 @@
+.app{
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+}
 .card-list{
     display: flex;
     flex-wrap: wrap;
     gap:30px;
-    padding: 30px;
+    padding: 25px;
     justify-content: center;
 }
 .card{
@@ -15,6 +24,7 @@
     width: 320px;
     height: 350px;
     gap:5px;
+    padding: 5px;
 
 }
 .avatar-div{
@@ -27,6 +37,9 @@
     height: 100%;
     object-fit: cover;
 }
-.button{
-
+button{
+    min-width: 80px;
+    height: 25px;
+    padding: 5px;
+    margin:0 5px;
 }
