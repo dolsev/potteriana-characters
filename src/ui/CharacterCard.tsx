@@ -14,7 +14,9 @@ function CharacterCard({ character, handleLike, handleDelete }: Props) {
             <div className={`card card--${character.house?.toLowerCase()}`}>
                 <h2 className='card-title'>{character.name}</h2>
                 <div className='avatar-div'>
-                    <img className='avatar' src={character.image} alt={character.name} />
+                    <img className='avatar'
+                         src={character.image ? character.image : 'default-character.jpg'}
+                         alt={character.name} />
                 </div>
                 {character.house ? <h3 className='card-house'> {character.house}</h3> : <h3 className='card-house'>Homeless</h3>}
                 <div className='card-buttons'>
